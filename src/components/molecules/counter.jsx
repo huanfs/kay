@@ -1,10 +1,10 @@
 import React from "react";
 
+import {useChance} from "@store/useChance.js";
+
 import styled from "styled-components";
 
-function Counter(){
-
-    const Counter = styled.section`
+    const Count = styled.section`
         display:flex;
         align-items:center;
         flex-direction:column;
@@ -22,14 +22,20 @@ function Counter(){
                 text-shadow:var(--shadow);
                 font-size:100px;
                 font-weight:900;
+                animation-name:tilt;
+                animation-durations:300ms;
             }
     `;
 
+function Counter(){
+
+    const{chance} = useChance();
+
     return(
-        <Counter>
+        <Count>
             <p>tenativas</p>
-            <span>3</span>
-        </Counter>
+            <span>{chance}</span>
+        </Count>
     )
 };
 export default Counter;

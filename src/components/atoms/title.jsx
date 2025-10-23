@@ -2,9 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 
-function Title({value}){
-
-    const Title = styled.h1`
+const PrimaryTitle = styled.h1`
         text-transform:capitalize;
         font-weight:var(--heavy);
         color:var(--brown);
@@ -12,10 +10,12 @@ function Title({value}){
         text-shadow:var(--shadow);
     `;
 
+function Title({value}){
+
     return(
-        <Title>
+        <PrimaryTitle>
             {value}
-        </Title>
+        </PrimaryTitle>
     )
 };
 export default Title;

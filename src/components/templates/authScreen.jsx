@@ -7,9 +7,7 @@ import PrimaryButton from "@atoms/primaryButton.jsx";
 
 import styled from "styled-components";
 
-function AuthScreen(){
-
-    const AuthScreen = styled.main`
+const Auth = styled.main`
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -36,14 +34,15 @@ function AuthScreen(){
   }
 `;
 
+function AuthScreen(){
 
     return(
-        <AuthScreen>
+        <Auth>
             <Title value="Digite a senha para continuar!"/>
             <Input/>
             <Counter/>
             <PrimaryButton value ="prosseguir"/>
-        </AuthScreen>
+        </Auth>
     )
 };
 export default AuthScreen;

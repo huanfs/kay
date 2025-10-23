@@ -11,7 +11,15 @@
   --heavy: 700;
   --lighteen: 400;
 }
-
+  /*animations*/
+  @keyframes tilt{
+    from{
+      margin-left:10px;
+    }
+    to{
+      margin-left:-10px;
+    }
+  }
 *{
   margin:0;
   padding:0;
