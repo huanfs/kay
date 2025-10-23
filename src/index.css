@@ -13,11 +13,14 @@
 }
   /*animations*/
   @keyframes tilt{
-    from{
-      margin-left:10px;
+    0%{
+      margin-left:-5px;
     }
-    to{
-      margin-left:-10px;
+    50%{
+      margin-left:5px;
+    }
+    100%{
+      margin-left:0px;
     }
   }
 *{
