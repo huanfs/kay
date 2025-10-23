@@ -4,9 +4,24 @@
   --soft-silver: #6a7d8b;
   --desaturated-yellow: #ede3d2;
   --champagne: #c2a878;
+  --brown: #4b2c3b;
 
   /*decoration*/
   --shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
   --heavy: 700;
   --lighteen: 400;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  min-width:100vw;
+  min-height:100vh;
+}
+#root{
+  min-width:100%;
+  min-height:100%;
 }
