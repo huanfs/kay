@@ -43,7 +43,7 @@ function Main(){
             <span>princesa, modelo e futura advogata!</span>
             <Icons/>
             <article>
-                <Card imageurl="/media/image1.svg" value="leia-me"/>
+                <Card imageurl="/media/image1.svg" value="leia-me" url="/letter"/>
                 <Card imageurl="/media/image2.svg" value="dedicada a ti"/>
                 <Card imageurl="/media/image4.svg" value="presente"/>
             </article>

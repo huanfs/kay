@@ -1,5 +1,7 @@
 import React from "react";
 
+import {useNavigate} from "react-router-dom";
+
 import styled from "styled-components";
 
 const StyledCard = styled.section`
@@ -16,9 +18,16 @@ const StyledCard = styled.section`
     background-repeat:no-repeat;
 `;
 
-function Card({imageurl, value}){
+function Card({imageurl, value, url}){
+
+    const navigate = useNavigate();
+
+    function HandleNavigate(){
+        navigate(url);
+    }
+
     return(
-        <StyledCard $imageurl={imageurl}>
+        <StyledCard $imageurl={imageurl} onClick={HandleNavigate}>
             {value}
         </StyledCard>
     )
