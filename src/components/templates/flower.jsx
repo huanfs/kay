@@ -44,7 +44,7 @@ function Flower() {
 
         {/* Suspense com fallback simples */}
         <Suspense fallback={<mesh><boxGeometry /><meshStandardMaterial color="gray" /></mesh>}>
-          <FlowerBouquetModel modelPath="/flower_bouquet.glb" />
+          <FlowerBouquetModel modelPath="/Roses.glb" />
         </Suspense>
 
         {/* Controles simplificados */}
