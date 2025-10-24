@@ -44,8 +44,8 @@ function Main(){
             <Icons/>
             <article>
                 <Card imageurl="/media/image1.svg" value="leia-me" url="/letter"/>
-                <Card imageurl="/media/image2.svg" value="dedicada a ti"/>
-                <Card imageurl="/media/image4.svg" value="presente"/>
+                <Card imageurl="/media/image2.svg" value="dedicada a ti" url="/flower"/>
+                <Card imageurl="/media/image4.svg" value="presente" url="/sort"/>
             </article>
         </StyledMain>
     )
