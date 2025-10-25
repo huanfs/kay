@@ -31,7 +31,7 @@ function Letter(){
     return(
         <StyledLetter>
             <Title value="Carta"/>
-            <p>
+            <p translate="no">
                 O resultado é sempre muito bom, mas a ação de fazer algo em prol de alguém — e, acima disso, o que se sente ao iniciar tal gesto — é, para mim, o verdadeiro ganho.
                 Tenho gostado de trocar as poucas mensagens que trocamos. Desde o início, venho tentando refletir esse gostar nas ações que tenho tomado.
                 Espero que você perceba o impulso por trás de cada gesto, porque é nele que está o verdadeiro “presente” da ação.
